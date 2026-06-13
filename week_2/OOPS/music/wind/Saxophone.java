@@ -1,0 +1,11 @@
+package week_2.OOPS.music.wind;
+
+import week_2.OOPS.music.Playable;
+
+public class Saxophone implements Playable {
+
+    @Override
+    public void play() {
+        System.out.println("Playing Saxophone");
+    }
+}
